@@ -1,12 +1,11 @@
-package Com.techlab.java;
+package com.techlab.assignment;
 
-public class MostFrequentlyRepeated {
-	
+public class MostFrequentElements {
 	public static void main(String[] args) {
-		int a[] = { 1, 3, 1, 5, 4, 1, 6, 4, 1, 4,4,4, 8 };
+		int a[] = { 4,5,8,7,4,7,6,7 };
 		int count = 0,temp=0;
 		for (int i = 0; i < a.length; i++) {
-			for (int j = i + 1; j < a.length; j++) {
+			for (int j = i ; j < a.length; j++) {
 				if (a[i] == a[j]) {
 					count++;
 				}
@@ -18,3 +17,4 @@ public class MostFrequentlyRepeated {
 		System.out.println( " Number of repeated times :"  + count);
 	}
 }
+
