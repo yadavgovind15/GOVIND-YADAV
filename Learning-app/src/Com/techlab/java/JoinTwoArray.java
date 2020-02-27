@@ -10,7 +10,7 @@ public class JoinTwoArray {
 		int bLen = array2.length;
 		int[] result = new int[aLen + bLen];
 		for (int i = 0; i < array1.length; i++) {
-			result[i+bLen] = array1[i];
+			result[i] = array1[i];
 		}
 		for (int j = 0; j < array2.length; j++) {
 			result[aLen + j] = array2[j];

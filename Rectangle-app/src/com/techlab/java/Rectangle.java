@@ -1,23 +1,43 @@
 package com.techlab.java;
 
 public class Rectangle {
-	public int breath;
-	public int length;
-	public Rectangle (int breath,int length) {
-		this.breath=breath;
-		this.length=length;
-	}
-	public void area()
-	{
-		 int area;
-		 area=length*breath;
-		 System.out.println(area);
-		 
-	}
-	public void display() {
-		area();
-	
-}
-	
+	public int width;
+	public int height;
 
+	public int calculateArea() {
+
+		int area = width * height;
+		return area;
+	}
+	public int readWidth() {
+		 
+		 
+	return width;
+	}
+	public int readHeight() {
+		 
+	return height;
+	}
+
+	public void changeHeight(int ht) {
+	height=ht;
+		}
+	public void changeWidth(int wt) {
+		width=wt;
+			}
+	public int checkHeight() {
+		if(height<1) {
+			height=1;
+		
+		}
+		return height;
+	}
+	public int checkWidth() {
+		if(width<1) {
+			width=1;
+			System.out.println(width);
+		}
+		return width;
+		
+	}
 }

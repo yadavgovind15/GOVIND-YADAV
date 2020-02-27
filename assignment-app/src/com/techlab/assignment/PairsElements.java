@@ -10,9 +10,9 @@ public class PairsElements {
 			for (j = i + 1; j < arr.length; j++) {
 				if (arr[i] + arr[j] == sum) {
 					int sum1 = arr[i] + arr[j];
-					System.out.println("(" + arr[i] + " ," + arr[j] + ")");
+					System.out.println("(" + arr[i] + " ," + arr[j] + ")=" +sum1);
 
-					System.out.println(sum1);
+					//System.out.println(sum1);
 
 				}
 			}

@@ -1,4 +1,4 @@
-package com.techlab;
+package Com.techlab.java;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -83,6 +83,7 @@ static void fibonacci() {
 
 		System.out.println("Select option : 1.evenodd or 2.factorial or 3.fibonacci or 4.leapyear ");
 		option = sc.nextInt();
+		
 		switch (option) {
 		
 		case EVENODD:
